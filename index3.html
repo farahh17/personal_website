@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Basic Tables</title>
+
+	<style>
+		table, th, tr, td
+		{
+			border: 2px solid red;
+			border-collapse: collapse;
+		}
+		th, td
+		{
+			padding: 3px;
+		}
+		th
+		{
+			text-align: left;
+			background-color: blueviolet;
+			color: lightblue;
+		}
+		tr
+		{
+			background-color: mediumpurple;
+		}
+
+	</style>
+
+</head>
+<body>
+<h2>Basic Table</h2>
+
+<table style="width:100%">
+	<caption>this is basic table</caption>
+	<tr>
+		<th>Name</th>
+		<th>Handphone No.</th>
+		<th>Email</th>
+		<th>Address</th>
+	</tr>
+	<tr>
+		<td>Farah Zulaikha Mazlan</td>
+		<td>011-65568900</td>
+		<td>farahika2002@gmail.com</td>
+		<td>UiTM Machang</td>
+	</tr>
+	<tr>
+		<td>Ika</td>
+		<td>123456789</td>
+		<td>huhu@gmail.com</td>
+		<td><center><img src="images/bg2.jpg" style="width: 50px"></td>
+	</tr>
+
+
+</table>
+
+<p></p>
+<h2>Customize Size Table</h2>
+
+<table style="width:100%">
+	<caption>this is customize size table</caption>
+	<tr>
+		<th style="width: 40%">Name</th>
+		<th style="width: 20%">Handphone No.</th>
+		<th style="width: 20%">Email</th>
+		<th style="width: 20%">Address</th>
+	</tr>
+	<tr>
+		<td>Farah Zulaikha Mazlan</td>
+		<td>011-65568900</td>
+		<td>farahika2002@gmail.com</td>
+		<td>UiTM Machang</td>
+	</tr>
+	<tr>
+		<td>Ika</td>
+		<td>123456789</td>
+		<td>huhu@gmail.com</td>
+		<td>Machang</td>
+	</tr>
+
+</table>
+
+<p></p>
+<h2>Customize Size Table</h2>
+
+<table style="width:100%">
+	<caption>this is customize size table (row size)</caption>
+	<tr>
+		<th style="width: 40%">Name</th>
+		<th style="width: 20%">Handphone No.</th>
+		<th style="width: 20%">Email</th>
+		<th style="width: 20%">Address</th>
+	</tr>
+	<tr>
+		<td>Farah Zulaikha Mazlan</td>
+		<td>011-65568900</td>
+		<td>farahika2002@gmail.com</td>
+		<td>UiTM Machang</td>
+	</tr>
+	<tr style="height: 150px;">
+		<td>Ika</td>
+		<td>123456789</td>
+		<td>huhu@gmail.com</td>
+		<td>Machang</td>
+	</tr>
+
+</table>
+
+<p></p>
+
+<h2>Table Colspan</h2>
+<table style="width: 100%">
+	<tr>
+		<th>Name</th>
+		<th colspan="2">Subject Code</th>
+	</tr>
+	<tr>
+		<td>Farah</td>
+		<td>IMD311</td>
+		<td>IMD226</td>
+	</tr>
+	<tr>
+		<td>Farah</td>
+		<td>IMD312</td>
+		<td>IMD227</td>
+	</tr>
+
+
+</table>
+
+<p></p>
+<h2>Table Rowspan</h2>
+<table style="width: 100%">
+	
+	<tr>
+		<th>Name</th>
+		<td>Farah</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Email</th>
+		<td>hihi@gmail.com</td>
+	</tr>
+	<tr>
+		<td>huhu@gmail.com</td>
+	</tr>
+
+</table>
+
+</body>
+</html>
